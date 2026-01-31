@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
+import logo from "@/assets/logo-ct.jpg";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,19 +25,19 @@ const Header = () => {
     >
       <nav className="container mx-auto px-6 py-5 flex items-center justify-between">
         <div className="flex items-center gap-12">
-          <a href="/" className="font-serif text-2xl tracking-wider text-foreground">
-            CHANTAL THOMASS
+          <a href="/" className="flex items-center">
+            <img src={logo} alt="Chantal Thomass" className="h-10 w-auto" />
           </a>
           <div className="hidden md:flex items-center gap-8">
             <a
               href="#univers"
-              className="text-sm font-sans tracking-widest text-muted-foreground hover:text-primary transition-colors uppercase"
+              className="text-sm font-title tracking-widest text-muted-foreground hover:text-primary transition-colors"
             >
               {t("nav.universe")}
             </a>
             <a
               href="#licensing"
-              className="text-sm font-sans tracking-widest text-muted-foreground hover:text-primary transition-colors uppercase"
+              className="text-sm font-title tracking-widest text-muted-foreground hover:text-primary transition-colors"
             >
               {t("nav.licensing")}
             </a>
@@ -46,7 +47,7 @@ const Header = () => {
           <LanguageSwitcher />
           <a
             href="#contact"
-            className="hidden sm:block text-sm font-sans tracking-widest text-foreground hover:text-primary transition-colors uppercase"
+            className="hidden sm:block text-sm font-title tracking-widest text-foreground hover:text-primary transition-colors"
           >
             {t("nav.contact")}
           </a>

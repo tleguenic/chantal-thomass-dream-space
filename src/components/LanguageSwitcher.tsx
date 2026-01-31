@@ -4,7 +4,7 @@ const LanguageSwitcher = () => {
   const { language, setLanguage } = useLanguage();
 
   return (
-    <div className="flex items-center gap-1 text-sm font-sans tracking-wider">
+    <div className="flex items-center gap-1 text-sm font-title tracking-wider">
       <button
         onClick={() => setLanguage("fr")}
         className={`px-2 py-1 transition-colors ${

@@ -2,56 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap');
+@import '@fontsource/bodoni-moda/400.css';
+@import '@fontsource/bodoni-moda/400-italic.css';
+@import '@fontsource/bodoni-moda/500.css';
+@import '@fontsource/bodoni-moda/600.css';
+@import '@fontsource/bodoni-moda/700.css';
+@import '@fontsource/oranienbaum/400.css';
 
-/* Chantal Thomass Design System - Parisian Luxury Lingerie */
+@import url('https://fonts.cdnfonts.com/css/brown-2');
+
+/* Chantal Thomass Design System - Official Brand Guidelines
+   Logo: Bodoni MT Italic (using Bodoni Moda)
+   Titles: Brown Extra Bold (uppercase)
+   Text: Oranienbaum
+   Colors: Noir (#101820), Rose Quartz (Pantone 13-1520 TCX), Blanc
+*/
 
 @layer base {
   :root {
-    --background: 0 0% 2%;
-    --foreground: 40 20% 95%;
+    --background: 210 11% 6%;
+    --foreground: 0 0% 100%;
 
-    --card: 0 0% 5%;
-    --card-foreground: 40 20% 95%;
+    --card: 210 11% 8%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 0 0% 5%;
-    --popover-foreground: 40 20% 95%;
+    --popover: 210 11% 8%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 330 85% 55%;
-    --primary-foreground: 0 0% 100%;
+    /* Rose Quartz - Pantone 13-1520 TCX - #F7CAC9 */
+    --primary: 1 62% 88%;
+    --primary-foreground: 210 11% 6%;
 
-    --secondary: 40 15% 90%;
-    --secondary-foreground: 0 0% 5%;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 210 11% 6%;
 
-    --muted: 0 0% 12%;
-    --muted-foreground: 40 10% 65%;
+    --muted: 210 8% 15%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 330 85% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 1 62% 88%;
+    --accent-foreground: 210 11% 6%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 18%;
-    --input: 0 0% 18%;
-    --ring: 330 85% 55%;
+    --border: 210 8% 20%;
+    --input: 210 8% 20%;
+    --ring: 1 62% 88%;
 
     --radius: 0.25rem;
 
-    /* Brand specific */
-    --rose-signature: 330 85% 55%;
-    --rose-glow: 330 100% 65%;
-    --noir-profond: 0 0% 2%;
-    --ivoire: 40 20% 95%;
-    --or-subtil: 43 74% 66%;
+    /* Brand specific - Official Colors */
+    --rose-quartz: 1 62% 88%;
+    --noir-ct: 210 11% 6%;
+    --blanc: 0 0% 100%;
 
     /* Gradients */
-    --gradient-rose: linear-gradient(135deg, hsl(330 85% 55%), hsl(340 80% 45%));
-    --gradient-noir: linear-gradient(180deg, hsl(0 0% 5%), hsl(0 0% 2%));
-    --gradient-hero: linear-gradient(180deg, transparent 0%, hsl(0 0% 2% / 0.8) 100%);
+    --gradient-rose: linear-gradient(135deg, hsl(1 62% 88%), hsl(350 50% 80%));
+    --gradient-noir: linear-gradient(180deg, hsl(210 11% 10%), hsl(210 11% 6%));
 
     /* Shadows */
-    --shadow-rose: 0 0 40px hsl(330 85% 55% / 0.3);
+    --shadow-rose: 0 0 40px hsl(1 62% 88% / 0.2);
     --shadow-elegant: 0 25px 50px -12px hsl(0 0% 0% / 0.5);
 
     --sidebar-background: 0 0% 98%;
@@ -61,37 +71,37 @@
     --sidebar-accent: 240 4.8% 95.9%;
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 1 62% 88%;
   }
 
   .dark {
-    --background: 0 0% 2%;
-    --foreground: 40 20% 95%;
-    --card: 0 0% 5%;
-    --card-foreground: 40 20% 95%;
-    --popover: 0 0% 5%;
-    --popover-foreground: 40 20% 95%;
-    --primary: 330 85% 55%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 40 15% 90%;
-    --secondary-foreground: 0 0% 5%;
-    --muted: 0 0% 12%;
-    --muted-foreground: 40 10% 65%;
-    --accent: 330 85% 55%;
-    --accent-foreground: 0 0% 100%;
+    --background: 210 11% 6%;
+    --foreground: 0 0% 100%;
+    --card: 210 11% 8%;
+    --card-foreground: 0 0% 100%;
+    --popover: 210 11% 8%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 1 62% 88%;
+    --primary-foreground: 210 11% 6%;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 210 11% 6%;
+    --muted: 210 8% 15%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 1 62% 88%;
+    --accent-foreground: 210 11% 6%;
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 0 0% 18%;
-    --input: 0 0% 18%;
-    --ring: 330 85% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 210 8% 20%;
+    --input: 210 8% 20%;
+    --ring: 1 62% 88%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-primary: 1 62% 88%;
+    --sidebar-primary-foreground: 210 11% 6%;
     --sidebar-accent: 240 3.7% 15.9%;
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-ring: 1 62% 88%;
   }
 }
 
@@ -101,25 +111,48 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans antialiased;
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Oranienbaum', Georgia, serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-serif;
+    font-family: 'Brown', 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 }
 
 @layer components {
+  /* Logo style - Bodoni Italic */
+  .font-logo {
+    font-family: 'Bodoni Moda', 'Bodoni MT', Georgia, serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  /* Title style - Brown Extra Bold */
+  .font-title {
+    font-family: 'Brown', 'Arial Black', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* Text style - Oranienbaum */
+  .font-text {
+    font-family: 'Oranienbaum', Georgia, serif;
+  }
+
   .text-gradient-rose {
-    background: linear-gradient(135deg, hsl(330 85% 55%), hsl(340 90% 70%));
+    background: linear-gradient(135deg, hsl(1 62% 88%), hsl(350 55% 82%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .border-rose-glow {
-    border-color: hsl(330 85% 55%);
-    box-shadow: 0 0 20px hsl(330 85% 55% / 0.2);
+    border-color: hsl(1 62% 88%);
+    box-shadow: 0 0 20px hsl(1 62% 88% / 0.15);
   }
 
   .hover-rose-glow {
@@ -127,7 +160,7 @@
   }
 
   .hover-rose-glow:hover {
-    box-shadow: 0 0 30px hsl(330 85% 55% / 0.4);
+    box-shadow: 0 0 30px hsl(1 62% 88% / 0.3);
   }
 }
 
