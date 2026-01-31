@@ -1,4 +1,8 @@
+import { useLanguage } from "@/contexts/LanguageContext";
+
 const Footer = () => {
+  const { t } = useLanguage();
+
   return (
     <footer id="contact" className="bg-background border-t border-border">
       <div className="container mx-auto max-w-7xl px-6 py-20">
@@ -9,9 +13,7 @@ const Footer = () => {
               Chantal Thomass
             </h3>
             <p className="font-sans text-muted-foreground leading-relaxed max-w-md mb-6">
-              Depuis 1975, la maison Chantal Thomass célèbre la féminité 
-              avec audace et raffinement. Une vision unique de la lingerie 
-              de luxe, signature de l'élégance parisienne.
+              {t("footer.description")}
             </p>
             <div className="flex items-center gap-6">
               <a
@@ -47,27 +49,27 @@ const Footer = () => {
           {/* Links */}
           <div>
             <h4 className="font-sans text-sm tracking-widest uppercase text-foreground mb-6">
-              La Maison
+              {t("footer.house")}
             </h4>
             <ul className="space-y-4">
               <li>
                 <a href="#" className="font-sans text-muted-foreground hover:text-primary transition-colors">
-                  Notre Histoire
+                  {t("footer.history")}
                 </a>
               </li>
               <li>
                 <a href="#" className="font-sans text-muted-foreground hover:text-primary transition-colors">
-                  Savoir-faire
+                  {t("footer.craftsmanship")}
                 </a>
               </li>
               <li>
                 <a href="#" className="font-sans text-muted-foreground hover:text-primary transition-colors">
-                  Boutiques
+                  {t("footer.boutiques")}
                 </a>
               </li>
               <li>
                 <a href="#" className="font-sans text-muted-foreground hover:text-primary transition-colors">
-                  Presse
+                  {t("footer.press")}
                 </a>
               </li>
             </ul>
@@ -76,27 +78,27 @@ const Footer = () => {
           {/* Contact */}
           <div>
             <h4 className="font-sans text-sm tracking-widest uppercase text-foreground mb-6">
-              Contact
+              {t("footer.contact")}
             </h4>
             <ul className="space-y-4">
               <li>
                 <a href="#" className="font-sans text-muted-foreground hover:text-primary transition-colors">
-                  Service Client
+                  {t("footer.customerService")}
                 </a>
               </li>
               <li>
                 <a href="#" className="font-sans text-muted-foreground hover:text-primary transition-colors">
-                  FAQ
+                  {t("footer.faq")}
                 </a>
               </li>
               <li>
                 <a href="#" className="font-sans text-muted-foreground hover:text-primary transition-colors">
-                  Mentions Légales
+                  {t("footer.legal")}
                 </a>
               </li>
               <li>
                 <a href="#" className="font-sans text-muted-foreground hover:text-primary transition-colors">
-                  Politique de Confidentialité
+                  {t("footer.privacy")}
                 </a>
               </li>
             </ul>
@@ -106,10 +108,10 @@ const Footer = () => {
         {/* Bottom */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-sans text-sm text-muted-foreground">
-            © 2025 Chantal Thomass. Tous droits réservés.
+            {t("footer.rights")}
           </p>
           <p className="font-sans text-xs text-muted-foreground tracking-wider">
-            L'ÉLÉGANCE À LA FRANÇAISE
+            {t("footer.tagline")}
           </p>
         </div>
       </div>
