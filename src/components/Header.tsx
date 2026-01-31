@@ -1,7 +1,10 @@
 import { useState, useEffect } from "react";
+import { useLanguage } from "@/contexts/LanguageContext";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,28 +32,29 @@ const Header = () => {
               href="#collections"
               className="text-sm font-sans tracking-widest text-muted-foreground hover:text-primary transition-colors uppercase"
             >
-              Collections
+              {t("nav.collections")}
             </a>
             <a
               href="#univers"
               className="text-sm font-sans tracking-widest text-muted-foreground hover:text-primary transition-colors uppercase"
             >
-              L'Univers
+              {t("nav.universe")}
             </a>
             <a
               href="#boutiques"
               className="text-sm font-sans tracking-widest text-muted-foreground hover:text-primary transition-colors uppercase"
             >
-              Boutiques
+              {t("nav.boutiques")}
             </a>
           </div>
         </div>
         <div className="flex items-center gap-6">
+          <LanguageSwitcher />
           <a
             href="#contact"
             className="hidden sm:block text-sm font-sans tracking-widest text-foreground hover:text-primary transition-colors uppercase"
           >
-            Contact
+            {t("nav.contact")}
           </a>
         </div>
       </nav>
