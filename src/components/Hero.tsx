@@ -1,0 +1,50 @@
+import heroBg from "@/assets/hero-bg.jpg";
+
+const Hero = () => {
+  return (
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroBg})` }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/20 to-background" />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+        <p className="text-sm md:text-base font-sans tracking-[0.4em] text-primary mb-6 animate-fade-up opacity-0 [animation-delay:0.2s] [animation-fill-mode:forwards]">
+          PARIS • DEPUIS 1975
+        </p>
+        <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium text-foreground mb-8 animate-fade-up opacity-0 [animation-delay:0.4s] [animation-fill-mode:forwards]">
+          Chantal Thomass
+        </h1>
+        <p className="font-sans text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-up opacity-0 [animation-delay:0.6s] [animation-fill-mode:forwards]">
+          L'art de la séduction à la française. Depuis près de 50 ans, 
+          Chantal Thomass sublime la féminité avec audace et élégance.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up opacity-0 [animation-delay:0.8s] [animation-fill-mode:forwards]">
+          <a
+            href="#collections"
+            className="inline-flex items-center justify-center px-10 py-4 bg-primary text-primary-foreground font-sans text-sm tracking-widest uppercase hover:bg-primary/90 transition-all duration-300 hover-rose-glow"
+          >
+            Découvrir
+          </a>
+          <a
+            href="#univers"
+            className="inline-flex items-center justify-center px-10 py-4 border border-foreground/30 text-foreground font-sans text-sm tracking-widest uppercase hover:border-primary hover:text-primary transition-all duration-300"
+          >
+            L'Univers
+          </a>
+        </div>
+      </div>
+
+      {/* Scroll Indicator */}
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+        <div className="w-[1px] h-16 bg-gradient-to-b from-transparent via-primary to-transparent" />
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
