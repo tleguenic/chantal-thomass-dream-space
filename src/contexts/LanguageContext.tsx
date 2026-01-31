@@ -11,9 +11,8 @@ interface LanguageContextType {
 const translations = {
   fr: {
     // Header
-    "nav.collections": "Collections",
     "nav.universe": "L'Univers",
-    "nav.boutiques": "Boutiques",
+    "nav.licensing": "Licences",
     "nav.contact": "Contact",
     
     // Hero
@@ -30,26 +29,36 @@ const translations = {
     "brand.text2": "Le noir et rose signature, la dentelle délicate, les nœuds précieux... Chaque création est une invitation à la séduction, un hommage à la femme qui ose affirmer sa sensualité.",
     "brand.cta": "Découvrir l'histoire",
     "brand.quote": "\"La lingerie, c'est l'armure secrète de la femme\"",
-    
-    // Collections
-    "collections.label": "Nos Créations",
-    "collections.title": "Collections",
-    "collections.discover": "Découvrir",
-    "collections.viewAll": "Voir toutes les collections",
-    "collection.signature": "Signature",
-    "collection.signature.desc": "L'essence de la marque",
-    "collection.nuit": "Nuit Parisienne",
-    "collection.nuit.desc": "Élégance nocturne",
-    "collection.essentiels": "Les Essentiels",
-    "collection.essentiels.desc": "Intemporels raffinés",
+
+    // Licensing
+    "licensing.label": "Opportunités Mondiales",
+    "licensing.title": "Devenez Partenaire",
+    "licensing.subtitle": "Rejoignez l'univers Chantal Thomass et développez la marque dans votre région. Nous recherchons des partenaires passionnés à travers le monde.",
+    "licensing.region.europe": "Europe",
+    "licensing.region.europe.desc": "Opportunités disponibles",
+    "licensing.region.asia": "Asie-Pacifique",
+    "licensing.region.asia.desc": "Marchés en développement",
+    "licensing.region.americas": "Amériques",
+    "licensing.region.americas.desc": "Nouvelles opportunités",
+    "licensing.region.middleeast": "Moyen-Orient & Afrique",
+    "licensing.region.middleeast.desc": "Expansion en cours",
+    "licensing.categories.title": "Catégories de Licences",
+    "licensing.cat.lingerie": "Lingerie & Corseterie",
+    "licensing.cat.lingerie.desc": "Le cœur de métier historique de la marque",
+    "licensing.cat.accessories": "Accessoires & Beauté",
+    "licensing.cat.accessories.desc": "Parfums, bijoux, accessoires mode",
+    "licensing.cat.home": "Art de Vivre",
+    "licensing.cat.home.desc": "Linge de maison, décoration boudoir",
+    "licensing.cta.text": "Vous souhaitez devenir licencié Chantal Thomass ? Contactez-nous pour discuter des opportunités dans votre région.",
+    "licensing.cta.button": "Nous Contacter",
     
     // Footer
     "footer.description": "Depuis 1975, la maison Chantal Thomass célèbre la féminité avec audace et raffinement. Une vision unique de la lingerie de luxe, signature de l'élégance parisienne.",
     "footer.house": "La Maison",
     "footer.history": "Notre Histoire",
     "footer.craftsmanship": "Savoir-faire",
-    "footer.boutiques": "Boutiques",
     "footer.press": "Presse",
+    "footer.partnership": "Partenariat",
     "footer.contact": "Contact",
     "footer.customerService": "Service Client",
     "footer.faq": "FAQ",
@@ -60,9 +69,8 @@ const translations = {
   },
   en: {
     // Header
-    "nav.collections": "Collections",
     "nav.universe": "The Universe",
-    "nav.boutiques": "Boutiques",
+    "nav.licensing": "Licensing",
     "nav.contact": "Contact",
     
     // Hero
@@ -79,26 +87,36 @@ const translations = {
     "brand.text2": "The signature black and pink, delicate lace, precious bows... Each creation is an invitation to seduction, a tribute to women who dare to embrace their sensuality.",
     "brand.cta": "Discover the story",
     "brand.quote": "\"Lingerie is a woman's secret armor\"",
-    
-    // Collections
-    "collections.label": "Our Creations",
-    "collections.title": "Collections",
-    "collections.discover": "Discover",
-    "collections.viewAll": "View all collections",
-    "collection.signature": "Signature",
-    "collection.signature.desc": "The brand's essence",
-    "collection.nuit": "Parisian Night",
-    "collection.nuit.desc": "Nocturnal elegance",
-    "collection.essentiels": "The Essentials",
-    "collection.essentiels.desc": "Refined timeless pieces",
+
+    // Licensing
+    "licensing.label": "Global Opportunities",
+    "licensing.title": "Become a Partner",
+    "licensing.subtitle": "Join the Chantal Thomass universe and develop the brand in your region. We are looking for passionate partners worldwide.",
+    "licensing.region.europe": "Europe",
+    "licensing.region.europe.desc": "Opportunities available",
+    "licensing.region.asia": "Asia-Pacific",
+    "licensing.region.asia.desc": "Developing markets",
+    "licensing.region.americas": "Americas",
+    "licensing.region.americas.desc": "New opportunities",
+    "licensing.region.middleeast": "Middle East & Africa",
+    "licensing.region.middleeast.desc": "Expansion underway",
+    "licensing.categories.title": "Licensing Categories",
+    "licensing.cat.lingerie": "Lingerie & Corsetry",
+    "licensing.cat.lingerie.desc": "The brand's historic core business",
+    "licensing.cat.accessories": "Accessories & Beauty",
+    "licensing.cat.accessories.desc": "Perfumes, jewelry, fashion accessories",
+    "licensing.cat.home": "Lifestyle",
+    "licensing.cat.home.desc": "Home linens, boudoir decoration",
+    "licensing.cta.text": "Interested in becoming a Chantal Thomass licensee? Contact us to discuss opportunities in your region.",
+    "licensing.cta.button": "Contact Us",
     
     // Footer
     "footer.description": "Since 1975, Maison Chantal Thomass celebrates femininity with boldness and refinement. A unique vision of luxury lingerie, the signature of Parisian elegance.",
     "footer.house": "The House",
     "footer.history": "Our History",
     "footer.craftsmanship": "Craftsmanship",
-    "footer.boutiques": "Boutiques",
     "footer.press": "Press",
+    "footer.partnership": "Partnership",
     "footer.contact": "Contact",
     "footer.customerService": "Customer Service",
     "footer.faq": "FAQ",

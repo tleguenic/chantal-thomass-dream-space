@@ -29,22 +29,16 @@ const Header = () => {
           </a>
           <div className="hidden md:flex items-center gap-8">
             <a
-              href="#collections"
-              className="text-sm font-sans tracking-widest text-muted-foreground hover:text-primary transition-colors uppercase"
-            >
-              {t("nav.collections")}
-            </a>
-            <a
               href="#univers"
               className="text-sm font-sans tracking-widest text-muted-foreground hover:text-primary transition-colors uppercase"
             >
               {t("nav.universe")}
             </a>
             <a
-              href="#boutiques"
+              href="#licensing"
               className="text-sm font-sans tracking-widest text-muted-foreground hover:text-primary transition-colors uppercase"
             >
-              {t("nav.boutiques")}
+              {t("nav.licensing")}
             </a>
           </div>
         </div>

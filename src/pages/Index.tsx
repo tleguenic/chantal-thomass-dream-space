@@ -2,7 +2,7 @@ import { LanguageProvider } from "@/contexts/LanguageContext";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import BrandStory from "@/components/BrandStory";
-import Collections from "@/components/Collections";
+import Licensing from "@/components/Licensing";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -13,7 +13,7 @@ const Index = () => {
         <main>
           <Hero />
           <BrandStory />
-          <Collections />
+          <Licensing />
         </main>
         <Footer />
       </div>
