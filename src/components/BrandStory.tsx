@@ -1,4 +1,5 @@
 import { useLanguage } from "@/contexts/LanguageContext";
+import brandImage from "@/assets/brand-image.jpg";
 
 const BrandStory = () => {
   const { t } = useLanguage();
@@ -9,21 +10,21 @@ const BrandStory = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
           <div className="space-y-8">
-            <p className="text-sm font-sans tracking-[0.3em] text-primary uppercase">
+            <p className="text-sm font-title tracking-[0.3em] text-primary">
               {t("brand.label")}
             </p>
-            <h2 className="font-serif text-4xl md:text-5xl text-foreground leading-tight">
+            <h2 className="font-title text-3xl md:text-4xl text-foreground leading-tight">
               {t("brand.title")}
               <span className="text-gradient-rose">{t("brand.title.highlight")}</span>
             </h2>
-            <div className="space-y-6 text-muted-foreground font-sans leading-relaxed">
+            <div className="space-y-6 text-muted-foreground font-text text-lg leading-relaxed">
               <p>{t("brand.text1")}</p>
               <p>{t("brand.text2")}</p>
             </div>
             <div className="pt-4">
               <a
-                href="#collections"
-                className="inline-flex items-center gap-3 text-primary font-sans text-sm tracking-widest uppercase group"
+                href="#licensing"
+                className="inline-flex items-center gap-3 text-primary font-title text-sm tracking-widest group"
               >
                 {t("brand.cta")}
                 <span className="w-8 h-[1px] bg-primary transition-all duration-300 group-hover:w-12" />
@@ -31,25 +32,24 @@ const BrandStory = () => {
             </div>
           </div>
 
-          {/* Right Content - Decorative */}
+          {/* Right Content - Brand Image */}
           <div className="relative">
             <div className="aspect-[3/4] bg-card border border-border overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center p-12">
-                  <div className="w-20 h-20 mx-auto mb-6 border border-primary rounded-full flex items-center justify-center">
-                    <span className="font-serif text-3xl text-primary">CT</span>
-                  </div>
-                  <p className="font-serif text-2xl text-foreground italic mb-2">
-                    {t("brand.quote")}
-                  </p>
-                  <p className="text-sm text-muted-foreground tracking-widest uppercase mt-4">
-                    — Chantal Thomass
-                  </p>
-                </div>
-              </div>
+              <img 
+                src={brandImage} 
+                alt="Chantal Thomass" 
+                className="w-full h-full object-cover"
+              />
             </div>
-            {/* Decorative element */}
-            <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-primary/30" />
+            {/* Quote overlay */}
+            <div className="absolute -bottom-8 -left-8 bg-background border border-border p-8 max-w-xs">
+              <p className="font-logo text-xl text-foreground italic mb-2">
+                {t("brand.quote")}
+              </p>
+              <p className="text-sm text-muted-foreground font-title tracking-widest">
+                — CHANTAL THOMASS
+              </p>
+            </div>
           </div>
         </div>
       </div>

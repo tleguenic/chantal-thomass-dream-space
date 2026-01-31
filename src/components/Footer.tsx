@@ -1,4 +1,5 @@
 import { useLanguage } from "@/contexts/LanguageContext";
+import logo from "@/assets/logo-ct.jpg";
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -9,10 +10,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="md:col-span-2">
-            <h3 className="font-serif text-3xl text-foreground mb-4">
-              Chantal Thomass
-            </h3>
-            <p className="font-sans text-muted-foreground leading-relaxed max-w-md mb-6">
+            <img src={logo} alt="Chantal Thomass" className="h-12 w-auto mb-6" />
+            <p className="font-text text-muted-foreground leading-relaxed max-w-md mb-6">
               {t("footer.description")}
             </p>
             <div className="flex items-center gap-6">
@@ -48,27 +47,27 @@ const Footer = () => {
 
           {/* Links */}
           <div>
-            <h4 className="font-sans text-sm tracking-widest uppercase text-foreground mb-6">
+            <h4 className="font-title text-sm tracking-widest text-foreground mb-6">
               {t("footer.house")}
             </h4>
             <ul className="space-y-4">
               <li>
-                <a href="#univers" className="font-sans text-muted-foreground hover:text-primary transition-colors">
+                <a href="#univers" className="font-text text-muted-foreground hover:text-primary transition-colors">
                   {t("footer.history")}
                 </a>
               </li>
               <li>
-                <a href="#" className="font-sans text-muted-foreground hover:text-primary transition-colors">
+                <a href="#" className="font-text text-muted-foreground hover:text-primary transition-colors">
                   {t("footer.craftsmanship")}
                 </a>
               </li>
               <li>
-                <a href="#licensing" className="font-sans text-muted-foreground hover:text-primary transition-colors">
+                <a href="#licensing" className="font-text text-muted-foreground hover:text-primary transition-colors">
                   {t("footer.partnership")}
                 </a>
               </li>
               <li>
-                <a href="#" className="font-sans text-muted-foreground hover:text-primary transition-colors">
+                <a href="#" className="font-text text-muted-foreground hover:text-primary transition-colors">
                   {t("footer.press")}
                 </a>
               </li>
@@ -77,22 +76,22 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h4 className="font-sans text-sm tracking-widest uppercase text-foreground mb-6">
+            <h4 className="font-title text-sm tracking-widest text-foreground mb-6">
               {t("footer.contact")}
             </h4>
             <ul className="space-y-4">
               <li>
-                <a href="mailto:contact@chantalthomass.com" className="font-sans text-muted-foreground hover:text-primary transition-colors">
+                <a href="mailto:contact@chantalthomass.com" className="font-text text-muted-foreground hover:text-primary transition-colors">
                   contact@chantalthomass.com
                 </a>
               </li>
               <li>
-                <a href="#" className="font-sans text-muted-foreground hover:text-primary transition-colors">
+                <a href="#" className="font-text text-muted-foreground hover:text-primary transition-colors">
                   {t("footer.legal")}
                 </a>
               </li>
               <li>
-                <a href="#" className="font-sans text-muted-foreground hover:text-primary transition-colors">
+                <a href="#" className="font-text text-muted-foreground hover:text-primary transition-colors">
                   {t("footer.privacy")}
                 </a>
               </li>
@@ -102,10 +101,10 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="font-sans text-sm text-muted-foreground">
+          <p className="font-text text-sm text-muted-foreground">
             {t("footer.rights")}
           </p>
-          <p className="font-sans text-xs text-muted-foreground tracking-wider">
+          <p className="font-title text-xs text-muted-foreground tracking-wider">
             {t("footer.tagline")}
           </p>
         </div>

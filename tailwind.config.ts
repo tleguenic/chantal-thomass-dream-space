@@ -14,8 +14,11 @@ export default {
     },
     extend: {
       fontFamily: {
-        serif: ["Playfair Display", "Georgia", "serif"],
-        sans: ["Montserrat", "system-ui", "sans-serif"],
+        logo: ["Bodoni Moda", "Bodoni MT", "Georgia", "serif"],
+        title: ["Brown", "Arial Black", "sans-serif"],
+        text: ["Oranienbaum", "Georgia", "serif"],
+        serif: ["Bodoni Moda", "Georgia", "serif"],
+        sans: ["Brown", "system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -52,11 +55,11 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         rose: {
-          DEFAULT: "hsl(var(--rose-signature))",
-          glow: "hsl(var(--rose-glow))",
+          DEFAULT: "hsl(var(--rose-quartz))",
+          light: "hsl(1 50% 92%)",
         },
-        ivoire: "hsl(var(--ivoire))",
-        or: "hsl(var(--or-subtil))",
+        noir: "hsl(var(--noir-ct))",
+        blanc: "hsl(var(--blanc))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
