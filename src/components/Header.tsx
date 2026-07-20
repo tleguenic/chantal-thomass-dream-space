@@ -1,16 +1,13 @@
 import { useState, useEffect } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
-import logo from "@/assets/logo-ct.jpg";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const { t } = useLanguage();
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
+    const handleScroll = () => setIsScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -24,31 +21,31 @@ const Header = () => {
       }`}
     >
       <nav className="container mx-auto px-6 py-5 flex items-center justify-between">
-        <div className="flex items-center gap-12">
-          <a href="/" className="flex items-center">
-            <img src={logo} alt="Chantal Thomass" className="h-10 w-auto" />
+        <a href="/" className="flex flex-col items-start leading-none">
+          <span className="font-logo text-2xl md:text-3xl text-foreground">
+            Chantal Thomass
+          </span>
+          <span className="font-title text-[10px] tracking-[0.4em] text-primary mt-1">
+            PARIS
+          </span>
+        </a>
+        <div className="hidden lg:flex items-center gap-8">
+          <a href="#univers" className="text-xs font-title tracking-widest text-muted-foreground hover:text-primary transition-colors">
+            {t("nav.universe")}
           </a>
-          <div className="hidden md:flex items-center gap-8">
-            <a
-              href="#univers"
-              className="text-sm font-title tracking-widest text-muted-foreground hover:text-primary transition-colors"
-            >
-              {t("nav.universe")}
-            </a>
-            <a
-              href="#licensing"
-              className="text-sm font-title tracking-widest text-muted-foreground hover:text-primary transition-colors"
-            >
-              {t("nav.licensing")}
-            </a>
-          </div>
+          <a href="#values" className="text-xs font-title tracking-widest text-muted-foreground hover:text-primary transition-colors">
+            {t("nav.values")}
+          </a>
+          <a href="#derived" className="text-xs font-title tracking-widest text-muted-foreground hover:text-primary transition-colors">
+            {t("nav.derived")}
+          </a>
+          <a href="#licensing" className="text-xs font-title tracking-widest text-muted-foreground hover:text-primary transition-colors">
+            {t("nav.licensing")}
+          </a>
         </div>
         <div className="flex items-center gap-6">
           <LanguageSwitcher />
-          <a
-            href="#contact"
-            className="hidden sm:block text-sm font-title tracking-widest text-foreground hover:text-primary transition-colors"
-          >
+          <a href="#contact" className="hidden sm:block text-xs font-title tracking-widest text-foreground hover:text-primary transition-colors">
             {t("nav.contact")}
           </a>
         </div>
