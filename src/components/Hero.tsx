@@ -1,27 +1,29 @@
 import heroBg from "@/assets/hero-bg.jpg";
 import { useLanguage } from "@/contexts/LanguageContext";
+import Logo from "./Logo";
 
 const Hero = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
         style={{ backgroundImage: `url(${heroBg})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/30 to-background" />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/60 via-transparent to-background/40" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-transparent to-background/70" />
       </div>
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <p className="text-sm md:text-base font-title tracking-[0.5em] text-rose-ink mb-8 animate-fade-up opacity-0 [animation-delay:0.2s] [animation-fill-mode:forwards]">
           {t("hero.since")}
         </p>
-        <h1 className="font-logo text-6xl md:text-8xl lg:text-9xl text-foreground mb-8 animate-fade-up opacity-0 [animation-delay:0.4s] [animation-fill-mode:forwards]">
-          Chantal Thomass
-        </h1>
-        <p className="font-text text-lg md:text-2xl text-foreground/90 max-w-2xl mx-auto mb-12 leading-relaxed italic animate-fade-up opacity-0 [animation-delay:0.6s] [animation-fill-mode:forwards]">
+        <div className="text-foreground mb-8 animate-fade-up opacity-0 [animation-delay:0.4s] [animation-fill-mode:forwards]">
+          <h1 className="sr-only">Chantal Thomass Paris</h1>
+          <Logo size="lg" aria-hidden />
+        </div>
+        <p className="font-text text-lg md:text-2xl text-foreground/80 max-w-2xl mx-auto mb-12 leading-relaxed italic animate-fade-up opacity-0 [animation-delay:0.6s] [animation-fill-mode:forwards]">
           {t("hero.tagline")}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up opacity-0 [animation-delay:0.8s] [animation-fill-mode:forwards]">
