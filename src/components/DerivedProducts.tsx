@@ -20,7 +20,7 @@ const DerivedProducts = () => {
     <section id="derived" className="py-32 px-6 bg-card">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-20 max-w-3xl mx-auto">
-          <p className="text-sm font-title tracking-[0.3em] text-primary mb-4">
+          <p className="text-sm font-title tracking-[0.3em] text-rose-ink mb-4">
             {t("derived.label")}
           </p>
           <h2 className="font-title text-3xl md:text-5xl text-foreground mb-6">

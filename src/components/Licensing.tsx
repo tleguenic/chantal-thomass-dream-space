@@ -14,7 +14,7 @@ const Licensing = () => {
     <section id="licensing" className="py-32 px-6 bg-background border-t border-border">
       <div className="container mx-auto max-w-5xl">
         <div className="text-center mb-20">
-          <p className="text-sm font-title tracking-[0.3em] text-primary mb-4">
+          <p className="text-sm font-title tracking-[0.3em] text-rose-ink mb-4">
             {t("licensing.label")}
           </p>
           <h2 className="font-title text-3xl md:text-5xl text-foreground mb-6">
@@ -31,8 +31,8 @@ const Licensing = () => {
               key={region.key}
               className="group p-10 bg-background hover:bg-primary/5 transition-all duration-500 text-center"
             >
-              <div className="w-12 h-[1px] bg-primary mx-auto mb-6 transition-all duration-500 group-hover:w-20" />
-              <h3 className="font-title text-base text-foreground mb-3 group-hover:text-primary transition-colors">
+              <div className="w-12 h-[1px] bg-rose-ink mx-auto mb-6 transition-all duration-500 group-hover:w-20" />
+              <h3 className="font-title text-base text-foreground mb-3 group-hover:text-rose-ink transition-colors">
                 {t(`licensing.region.${region.key}`)}
               </h3>
               <p className="font-text text-sm text-muted-foreground italic">

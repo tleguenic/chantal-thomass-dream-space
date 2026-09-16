@@ -56,7 +56,8 @@ export default {
         },
         rose: {
           DEFAULT: "hsl(var(--rose-quartz))",
-          light: "hsl(1 50% 92%)",
+          light: "hsl(1 50% 96%)",
+          ink: "hsl(var(--rose-ink))",
         },
         noir: "hsl(var(--noir-ct))",
         blanc: "hsl(var(--blanc))",
