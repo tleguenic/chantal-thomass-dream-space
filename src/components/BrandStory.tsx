@@ -9,7 +9,7 @@ const BrandStory = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
-            <p className="text-sm font-title tracking-[0.3em] text-primary">
+            <p className="text-sm font-title tracking-[0.3em] text-rose-ink">
               {t("brand.label")}
             </p>
             <h2 className="font-title text-3xl md:text-5xl text-foreground leading-tight">
@@ -23,10 +23,10 @@ const BrandStory = () => {
             <div className="pt-4">
               <a
                 href="#values"
-                className="inline-flex items-center gap-3 text-primary font-title text-sm tracking-widest group"
+                className="inline-flex items-center gap-3 text-rose-ink font-title text-sm tracking-widest group"
               >
                 {t("brand.cta")}
-                <span className="w-8 h-[1px] bg-primary transition-all duration-300 group-hover:w-12" />
+                <span className="w-8 h-[1px] bg-rose-ink transition-all duration-300 group-hover:w-12" />
               </a>
             </div>
           </div>
@@ -44,7 +44,7 @@ const BrandStory = () => {
               <p className="font-logo text-xl text-foreground italic leading-snug mb-3">
                 {t("brand.quote")}
               </p>
-              <p className="text-xs text-primary font-title tracking-widest">
+              <p className="text-xs text-rose-ink font-title tracking-widest">
                 — INSIGHT · CHANTAL THOMASS
               </p>
             </div>

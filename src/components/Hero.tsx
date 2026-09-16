@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <p className="text-sm md:text-base font-title tracking-[0.5em] text-primary mb-8 animate-fade-up opacity-0 [animation-delay:0.2s] [animation-fill-mode:forwards]">
+        <p className="text-sm md:text-base font-title tracking-[0.5em] text-rose-ink mb-8 animate-fade-up opacity-0 [animation-delay:0.2s] [animation-fill-mode:forwards]">
           {t("hero.since")}
         </p>
         <h1 className="font-logo text-6xl md:text-8xl lg:text-9xl text-foreground mb-8 animate-fade-up opacity-0 [animation-delay:0.4s] [animation-fill-mode:forwards]">
@@ -33,7 +33,7 @@ const Hero = () => {
           </a>
           <a
             href="#licensing"
-            className="inline-flex items-center justify-center px-10 py-4 border border-foreground/40 text-foreground font-title text-sm tracking-widest hover:border-primary hover:text-primary transition-all duration-300"
+            className="inline-flex items-center justify-center px-10 py-4 border border-foreground/40 text-foreground font-title text-sm tracking-widest hover:border-primary hover:text-rose-ink transition-all duration-300"
           >
             {t("nav.licensing")}
           </a>
@@ -41,7 +41,7 @@ const Hero = () => {
       </div>
 
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-[1px] h-16 bg-gradient-to-b from-transparent via-primary to-transparent" />
+        <div className="w-[1px] h-16 bg-gradient-to-b from-transparent via-rose-ink to-transparent" />
       </div>
     </section>
   );

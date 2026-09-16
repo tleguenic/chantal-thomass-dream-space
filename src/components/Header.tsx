@@ -25,27 +25,27 @@ const Header = () => {
           <span className="font-logo text-2xl md:text-3xl text-foreground">
             Chantal Thomass
           </span>
-          <span className="font-title text-[10px] tracking-[0.4em] text-primary mt-1">
+          <span className="font-title text-[10px] tracking-[0.4em] text-rose-ink mt-1">
             PARIS
           </span>
         </a>
         <div className="hidden lg:flex items-center gap-8">
-          <a href="#univers" className="text-xs font-title tracking-widest text-muted-foreground hover:text-primary transition-colors">
+          <a href="#univers" className="text-xs font-title tracking-widest text-muted-foreground hover:text-rose-ink transition-colors">
             {t("nav.universe")}
           </a>
-          <a href="#values" className="text-xs font-title tracking-widest text-muted-foreground hover:text-primary transition-colors">
+          <a href="#values" className="text-xs font-title tracking-widest text-muted-foreground hover:text-rose-ink transition-colors">
             {t("nav.values")}
           </a>
-          <a href="#derived" className="text-xs font-title tracking-widest text-muted-foreground hover:text-primary transition-colors">
+          <a href="#derived" className="text-xs font-title tracking-widest text-muted-foreground hover:text-rose-ink transition-colors">
             {t("nav.derived")}
           </a>
-          <a href="#licensing" className="text-xs font-title tracking-widest text-muted-foreground hover:text-primary transition-colors">
+          <a href="#licensing" className="text-xs font-title tracking-widest text-muted-foreground hover:text-rose-ink transition-colors">
             {t("nav.licensing")}
           </a>
         </div>
         <div className="flex items-center gap-6">
           <LanguageSwitcher />
-          <a href="#contact" className="hidden sm:block text-xs font-title tracking-widest text-foreground hover:text-primary transition-colors">
+          <a href="#contact" className="hidden sm:block text-xs font-title tracking-widest text-foreground hover:text-rose-ink transition-colors">
             {t("nav.contact")}
           </a>
         </div>

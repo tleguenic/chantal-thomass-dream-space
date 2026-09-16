@@ -9,7 +9,7 @@ const LanguageSwitcher = () => {
         onClick={() => setLanguage("fr")}
         className={`px-2 py-1 transition-colors ${
           language === "fr"
-            ? "text-primary"
+            ? "text-rose-ink"
             : "text-muted-foreground hover:text-foreground"
         }`}
       >
@@ -20,7 +20,7 @@ const LanguageSwitcher = () => {
         onClick={() => setLanguage("en")}
         className={`px-2 py-1 transition-colors ${
           language === "en"
-            ? "text-primary"
+            ? "text-rose-ink"
             : "text-muted-foreground hover:text-foreground"
         }`}
       >
