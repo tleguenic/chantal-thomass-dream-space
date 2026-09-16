@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
+import Logo from "./Logo";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -21,13 +22,8 @@ const Header = () => {
       }`}
     >
       <nav className="container mx-auto px-6 py-5 flex items-center justify-between">
-        <a href="/" className="flex flex-col items-start leading-none">
-          <span className="font-logo text-2xl md:text-3xl text-foreground">
-            Chantal Thomass
-          </span>
-          <span className="font-title text-[10px] tracking-[0.4em] text-rose-ink mt-1">
-            PARIS
-          </span>
+        <a href="/" className="text-foreground" aria-label="Chantal Thomass Paris">
+          <Logo size="md" />
         </a>
         <div className="hidden lg:flex items-center gap-8">
           <a href="#univers" className="text-xs font-title tracking-widest text-muted-foreground hover:text-rose-ink transition-colors">

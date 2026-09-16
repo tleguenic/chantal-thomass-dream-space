@@ -1,4 +1,5 @@
 import { useLanguage } from "@/contexts/LanguageContext";
+import Logo from "./Logo";
 
 const Footer = () => {
   const { t } = useLanguage();
@@ -8,9 +9,8 @@ const Footer = () => {
       <div className="container mx-auto max-w-7xl px-6 py-20">
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-2">
-            <div className="flex flex-col items-start leading-none mb-6">
-              <span className="font-logo text-3xl text-foreground">Chantal Thomass</span>
-              <span className="font-title text-xs tracking-[0.4em] text-rose-ink mt-1">PARIS</span>
+            <div className="mb-6 text-foreground">
+              <Logo size="md" />
             </div>
             <p className="font-text text-muted-foreground leading-relaxed max-w-md mb-6">
               {t("footer.description")}

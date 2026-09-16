@@ -145,7 +145,7 @@
   }
 
   .text-gradient-rose {
-    background: linear-gradient(135deg, hsl(1 62% 88%), hsl(350 55% 82%));
+    background: linear-gradient(135deg, hsl(350 45% 60%), hsl(350 35% 72%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
