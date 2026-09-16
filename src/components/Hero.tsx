@@ -8,18 +8,14 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
         style={{ backgroundImage: `url(${heroBg})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-transparent to-background/70" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/60 to-background" />
       </div>
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <p className="text-sm md:text-base font-title tracking-[0.5em] text-rose-ink mb-8 animate-fade-up opacity-0 [animation-delay:0.2s] [animation-fill-mode:forwards]">
-          {t("hero.since")}
-        </p>
-        <div className="text-foreground mb-8 animate-fade-up opacity-0 [animation-delay:0.4s] [animation-fill-mode:forwards]">
+        <div className="text-foreground mb-10 animate-fade-up opacity-0 [animation-delay:0.2s] [animation-fill-mode:forwards]">
           <h1 className="sr-only">Chantal Thomass Paris</h1>
           <Logo size="lg" aria-hidden />
         </div>
