@@ -19,18 +19,18 @@ const translations = {
 
     // Hero
     "hero.since": "PARIS",
-    "hero.tagline": "« Je m'aime » — Une lingerie pour se faire plaisir, se valoriser, retrouver la séduction et le glamour.",
+    "hero.tagline": "« Je m'aime » — Un art de vivre parisien, audacieux et glamour, qui célèbre toutes les femmes.",
     "hero.discover": "Découvrir",
     "hero.universe": "L'Univers",
 
-    // Brand Story - Les Dessous Chics / L'Identité
-    "brand.label": "LES DESSOUS CHICS · L'IDENTITÉ",
+    // Brand Story - L'Identité
+    "brand.label": "L'ESPRIT CHANTAL THOMASS · L'IDENTITÉ",
     "brand.title": "Une séduction",
     "brand.title.highlight": " singulière",
-    "brand.text1": "Une lingerie pour s'aimer, pour se faire plaisir, pour se valoriser. Un retour bienveillant à la séduction et au glamour, à la recherche du confort, de la liberté de mouvement, de la légèreté et de l'invisibilité.",
-    "brand.text2": "Chantal Thomass revient à ses codes propres et différenciants. Avant-gardiste, créative, audacieuse et impertinente, la lingerie se redessine tout en sensualité — le goût des belles matières, l'esprit boudoir, l'identité du défilé, le lien au prêt-à-porter.",
+    "brand.text1": "Depuis 1975, Chantal Thomass incarne une certaine idée de la Parisienne : libre, espiègle, sûre d'elle. Une maison qui invite chaque femme à s'aimer, à se faire plaisir et à cultiver sa propre séduction.",
+    "brand.text2": "Née de la mode et du défilé, la signature Chantal Thomass se décline aujourd'hui en un univers complet — lingerie, beauté, parfum, bijoux, accessoires et décoration. Avant-gardiste, créative, audacieuse et impertinente, avec toujours cette touche noire et rose inimitable.",
     "brand.cta": "Découvrir la vision",
-    "brand.quote": "« Je ne porte pas de la lingerie pour séduire mon partenaire, mais pour me séduire avant tout. »",
+    "brand.quote": "« Se séduire soi-même, avant tout. »",
 
     // Values
     "values.label": "NOS VALEURS",
@@ -47,7 +47,7 @@ const translations = {
     // Derived Products
     "derived.label": "PRODUITS DÉRIVÉS",
     "derived.title": "Une parure complète",
-    "derived.subtitle": "La lingerie devient un élément du look à part entière, comme un bijou. L'univers Chantal Thomass se prolonge en accessoires, senteurs et art de vivre.",
+    "derived.subtitle": "Beauté, parfum, bijoux, accessoires, maison : l'univers Chantal Thomass se vit à chaque instant de la journée, comme une signature.",
     "derived.parfum": "Parfum",
     "derived.parfum.desc": "Un marketing olfactif : les effluves de la fragrance se retrouvent en boutique et dans chaque colis.",
     "derived.lipstick": "Rouge à Lèvres",
@@ -77,7 +77,7 @@ const translations = {
     "licensing.cta.button": "Nous Contacter",
 
     // Footer
-    "footer.description": "Depuis 1975, Chantal Thomass PARIS célèbre la féminité avec avant-garde, créativité, audace et impertinence. La signature française de la lingerie de séduction.",
+    "footer.description": "Depuis 1975, Chantal Thomass PARIS célèbre la féminité avec avant-garde, créativité, audace et impertinence. Une signature parisienne de la séduction et de l'art de vivre.",
     "footer.house": "La Maison",
     "footer.history": "L'Univers",
     "footer.values": "Nos Valeurs",
@@ -99,18 +99,18 @@ const translations = {
 
     // Hero
     "hero.since": "PARIS",
-    "hero.tagline": "\"I love myself\" — Lingerie to please oneself, to feel valued, to rediscover seduction and glamour.",
+    "hero.tagline": "\"I love myself\" — A bold, glamorous Parisian art of living that celebrates every woman.",
     "hero.discover": "Discover",
     "hero.universe": "Universe",
 
     // Brand Story
-    "brand.label": "LES DESSOUS CHICS · IDENTITY",
+    "brand.label": "THE CHANTAL THOMASS SPIRIT · IDENTITY",
     "brand.title": "A singular",
     "brand.title.highlight": " seduction",
-    "brand.text1": "Lingerie to love oneself, to enjoy oneself, to feel valued. A benevolent return to seduction and glamour, in search of comfort, freedom of movement, lightness and invisibility.",
-    "brand.text2": "Chantal Thomass returns to her own distinctive codes. Avant-garde, creative, audacious and impertinent, lingerie is redrawn in sensuality — a taste for fine materials, the boudoir spirit, the runway identity, the ready-to-wear link.",
+    "brand.text1": "Since 1975, Chantal Thomass has embodied a certain idea of the Parisienne: free, playful, self-assured. A house that invites every woman to love herself, to indulge and to cultivate her own seduction.",
+    "brand.text2": "Born from fashion and the runway, the Chantal Thomass signature now extends into a complete universe — lingerie, beauty, fragrance, jewelry, accessories and home decor. Avant-garde, creative, audacious and impertinent, always with that inimitable black-and-pink touch.",
     "brand.cta": "Discover the vision",
-    "brand.quote": "\"I don't wear lingerie to seduce my partner, but to seduce myself first.\"",
+    "brand.quote": "\"Seduce yourself, first and foremost.\"",
 
     // Values
     "values.label": "OUR VALUES",
@@ -127,7 +127,7 @@ const translations = {
     // Derived Products
     "derived.label": "DERIVED PRODUCTS",
     "derived.title": "A complete adornment",
-    "derived.subtitle": "Lingerie becomes a full part of the look — like a piece of jewelry. The Chantal Thomass universe extends into accessories, scents and lifestyle.",
+    "derived.subtitle": "Beauty, fragrance, jewelry, accessories, home: the Chantal Thomass universe is lived at every moment of the day, like a signature.",
     "derived.parfum": "Fragrance",
     "derived.parfum.desc": "Olfactory marketing: the fragrance is found in every boutique and every parcel.",
     "derived.lipstick": "Lipstick",
@@ -157,7 +157,7 @@ const translations = {
     "licensing.cta.button": "Contact Us",
 
     // Footer
-    "footer.description": "Since 1975, Chantal Thomass PARIS celebrates femininity with avant-garde, creativity, audacity and impertinence. The French signature of seductive lingerie.",
+    "footer.description": "Since 1975, Chantal Thomass PARIS celebrates femininity with avant-garde, creativity, audacity and impertinence. A Parisian signature of seduction and art of living.",
     "footer.house": "The House",
     "footer.history": "Universe",
     "footer.values": "Our Values",
