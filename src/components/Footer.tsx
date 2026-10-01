@@ -46,7 +46,7 @@ const Footer = () => {
               {t("footer.contact")}
             </h4>
             <ul className="space-y-4">
-              <li><a href="mailto:contact@chantalthomass.com" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">contact@chantalthomass.com</a></li>
+              <li><a href="mailto:contact@chantal-thomass.com" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">contact@chantal-thomass.com</a></li>
               <li><a href="/mentions-legales" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">{t("footer.legal")}</a></li>
               <li><a href="/confidentialite" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">{t("footer.privacy")}</a></li>
             </ul>
