@@ -33,7 +33,7 @@ const Hero = () => {
             href="#licensing"
             className="inline-flex items-center justify-center px-10 py-4 border border-foreground/40 text-foreground font-title text-sm tracking-widest hover:border-primary hover:text-rose-ink transition-all duration-300"
           >
-            {t("nav.licensing")}
+            {t("hero.partner")}
           </a>
         </div>
       </div>
