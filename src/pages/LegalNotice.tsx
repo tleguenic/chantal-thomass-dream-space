@@ -12,7 +12,7 @@ const company = [
   "SASU – société par actions simplifiée unipersonnelle, au capital de 1 000,00 €",
   "RCS Paris 912 579 976 – SIRET (siège) 912 579 976 00032",
   "TVA : FR09912579976",
-  "Siège : 6 rue Duret, 75016 Paris, France",
+  "Siège / Registered office : 6 rue Duret, 75016 Paris, France",
   "contact@chantalthomass.com",
 ];
 
