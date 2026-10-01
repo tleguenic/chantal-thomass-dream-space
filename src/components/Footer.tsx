@@ -34,10 +34,10 @@ const Footer = () => {
               {t("footer.house")}
             </h4>
             <ul className="space-y-4">
-              <li><a href="#univers" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">{t("footer.history")}</a></li>
-              <li><a href="#values" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">{t("footer.values")}</a></li>
-              <li><a href="#derived" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">{t("footer.derived")}</a></li>
-              <li><a href="#licensing" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">{t("footer.partnership")}</a></li>
+              <li><a href="/#univers" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">{t("footer.history")}</a></li>
+              <li><a href="/#values" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">{t("footer.values")}</a></li>
+              <li><a href="/#derived" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">{t("footer.derived")}</a></li>
+              <li><a href="/#licensing" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">{t("footer.partnership")}</a></li>
             </ul>
           </div>
 
@@ -47,7 +47,7 @@ const Footer = () => {
             </h4>
             <ul className="space-y-4">
               <li><a href="mailto:contact@chantalthomass.com" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">contact@chantalthomass.com</a></li>
-              <li><a href="#" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">{t("footer.legal")}</a></li>
+              <li><a href="/mentions-legales" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">{t("footer.legal")}</a></li>
               <li><a href="#" className="font-text text-muted-foreground hover:text-rose-ink transition-colors">{t("footer.privacy")}</a></li>
             </ul>
           </div>
