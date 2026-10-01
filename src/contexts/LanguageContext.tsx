@@ -21,7 +21,7 @@ const translations = {
     "hero.since": "PARIS",
     "hero.tagline": "Un art de vivre parisien, audacieux et glamour, qui célèbre toutes les femmes.",
     "hero.discover": "Découvrir la marque",
-    "hero.partner": "Devenez partenaires",
+    "hero.partner": "Devenir partenaire",
     "hero.universe": "L'Univers",
 
     // Brand Story - L'Identité
