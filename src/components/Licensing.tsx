@@ -17,9 +17,6 @@ const Licensing = () => {
           <p className="text-sm font-title tracking-[0.3em] text-rose-ink mb-4">
             {t("licensing.label")}
           </p>
-          <h2 className="font-title text-3xl md:text-5xl text-foreground mb-6">
-            {t("licensing.title")}
-          </h2>
           <p className="font-text text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             {t("licensing.subtitle")}
           </p>
