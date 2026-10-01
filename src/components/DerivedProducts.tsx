@@ -1,19 +1,19 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-import parfum from "@/assets/product-parfum.jpg";
-import lipstick from "@/assets/product-lipstick.jpg";
-import jewelry from "@/assets/product-jewelry.jpg";
-import slippers from "@/assets/product-slippers.jpg";
-import lifestyle from "@/assets/product-lifestyle.jpg";
+import lingerie from "@/assets/photo-lingerie.png";
+import eyewear from "@/assets/photo-eyewear.png";
+import jewelry from "@/assets/photo-jewelry.jpg";
+import shoes from "@/assets/photo-shoes.jpg";
+import editorial from "@/assets/photo-editorial.png";
 
 const DerivedProducts = () => {
   const { t } = useLanguage();
 
   const products = [
-    { key: "parfum", image: parfum, span: "md:col-span-2 md:row-span-2" },
-    { key: "lipstick", image: lipstick, span: "" },
+    { key: "lingerie", image: lingerie, span: "md:col-span-2 md:row-span-2" },
+    { key: "eyewear", image: eyewear, span: "" },
     { key: "jewelry", image: jewelry, span: "" },
-    { key: "slippers", image: slippers, span: "" },
-    { key: "lifestyle", image: lifestyle, span: "md:col-span-2" },
+    { key: "shoes", image: shoes, span: "" },
+    { key: "editorial", image: editorial, span: "" },
   ];
 
   return (

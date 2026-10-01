@@ -19,7 +19,7 @@ const translations = {
 
     // Hero
     "hero.since": "PARIS",
-    "hero.tagline": "« Je m'aime » — Un art de vivre parisien, audacieux et glamour, qui célèbre toutes les femmes.",
+    "hero.tagline": "Un art de vivre parisien, audacieux et glamour, qui célèbre toutes les femmes.",
     "hero.discover": "Découvrir",
     "hero.universe": "L'Univers",
 
@@ -48,6 +48,14 @@ const translations = {
     "derived.label": "PRODUITS DÉRIVÉS",
     "derived.title": "Une parure complète",
     "derived.subtitle": "Beauté, parfum, bijoux, accessoires, maison : l'univers Chantal Thomass se vit à chaque instant de la journée, comme une signature.",
+    "derived.lingerie": "Lingerie",
+    "derived.lingerie.desc": "La dentelle, le nœud noir, l'esprit couture : le savoir-faire fondateur de la maison.",
+    "derived.eyewear": "Lunettes",
+    "derived.eyewear.desc": "Des montures affirmées, signées de détails dentelle, pour un regard audacieux.",
+    "derived.shoes": "Souliers",
+    "derived.shoes.desc": "Le chic parisien jusqu'au bout du pied, en daim noir et œillets dorés.",
+    "derived.editorial": "La Femme Chantal Thomass",
+    "derived.editorial.desc": "Libre, élégante, sûre d'elle : l'allure parisienne au quotidien.",
     "derived.parfum": "Parfum",
     "derived.parfum.desc": "Un marketing olfactif : les effluves de la fragrance se retrouvent en boutique et dans chaque colis.",
     "derived.lipstick": "Rouge à Lèvres",
@@ -99,7 +107,7 @@ const translations = {
 
     // Hero
     "hero.since": "PARIS",
-    "hero.tagline": "\"I love myself\" — A bold, glamorous Parisian art of living that celebrates every woman.",
+    "hero.tagline": "A bold, glamorous Parisian art of living that celebrates every woman.",
     "hero.discover": "Discover",
     "hero.universe": "Universe",
 
@@ -128,6 +136,14 @@ const translations = {
     "derived.label": "DERIVED PRODUCTS",
     "derived.title": "A complete adornment",
     "derived.subtitle": "Beauty, fragrance, jewelry, accessories, home: the Chantal Thomass universe is lived at every moment of the day, like a signature.",
+    "derived.lingerie": "Lingerie",
+    "derived.lingerie.desc": "Lace, the black bow, the couture spirit: the house's founding craft.",
+    "derived.eyewear": "Eyewear",
+    "derived.eyewear.desc": "Bold frames with lace details, for an audacious gaze.",
+    "derived.shoes": "Shoes",
+    "derived.shoes.desc": "Parisian chic down to the toe, in black suede with golden eyelets.",
+    "derived.editorial": "The Chantal Thomass Woman",
+    "derived.editorial.desc": "Free, elegant, self-assured: Parisian allure every day.",
     "derived.parfum": "Fragrance",
     "derived.parfum.desc": "Olfactory marketing: the fragrance is found in every boutique and every parcel.",
     "derived.lipstick": "Lipstick",
