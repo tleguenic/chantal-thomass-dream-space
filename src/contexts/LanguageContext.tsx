@@ -19,7 +19,7 @@ const translations = {
 
     // Hero
     "hero.since": "PARIS",
-    "hero.tagline": "« Je m'aime » — Un art de vivre parisien, audacieux et glamour, qui célèbre toutes les femmes.",
+    "hero.tagline": "Un art de vivre parisien, audacieux et glamour, qui célèbre toutes les femmes.",
     "hero.discover": "Découvrir",
     "hero.universe": "L'Univers",
 
@@ -99,7 +99,7 @@ const translations = {
 
     // Hero
     "hero.since": "PARIS",
-    "hero.tagline": "\"I love myself\" — A bold, glamorous Parisian art of living that celebrates every woman.",
+    "hero.tagline": "A bold, glamorous Parisian art of living that celebrates every woman.",
     "hero.discover": "Discover",
     "hero.universe": "Universe",
 
