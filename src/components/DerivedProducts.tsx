@@ -13,7 +13,7 @@ const DerivedProducts = () => {
     { key: "eyewear", image: eyewear, span: "" },
     { key: "jewelry", image: jewelry, span: "" },
     { key: "shoes", image: shoes, span: "" },
-    { key: "lifestyle", image: editorial, span: "md:col-span-2" },
+    { key: "editorial", image: editorial, span: "" },
   ];
 
   return (
