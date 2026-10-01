@@ -1,5 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-import moodboard from "@/assets/photo-eyewear.png";
+import brandPhoto from "@/assets/brand-photo.png.asset.json";
+const moodboard = brandPhoto.url;
 
 const BrandStory = () => {
   const { t } = useLanguage();
