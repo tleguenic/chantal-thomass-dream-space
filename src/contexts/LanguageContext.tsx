@@ -66,9 +66,9 @@ const translations = {
     "derived.travel.desc": "Une paire de chaussons, un masque de nuit, un coussin — le boudoir en cabine.",
 
     // Licensing
-    "licensing.label": "OPPORTUNITÉS MONDIALES",
+    "licensing.label": "OPPORTUNITÉS DE DÉVELOPPEMENT",
     "licensing.title": "Devenez licencié Chantal Thomass",
-    "licensing.subtitle": "La maison développe ses partenariats à travers le monde. Rejoignez l'univers d'une marque iconique du luxe parisien.",
+    "licensing.subtitle": "La maison Chantal Thomass développe ses partenariats à travers le monde. Rejoignez l'univers d'une marque iconique du luxe parisien en devenant soit licencié, soit revendeur exclusif.",
     "licensing.region.europe": "Europe",
     "licensing.region.europe.desc": "Opportunités disponibles",
     "licensing.region.asia": "Asie-Pacifique",
@@ -150,9 +150,9 @@ const translations = {
     "derived.travel.desc": "A pair of slippers, a sleep mask, a cushion — the boudoir on board.",
 
     // Licensing
-    "licensing.label": "GLOBAL OPPORTUNITIES",
+    "licensing.label": "DEVELOPMENT OPPORTUNITIES",
     "licensing.title": "Become a Chantal Thomass licensee",
-    "licensing.subtitle": "The house is developing partnerships worldwide. Join the universe of an iconic Parisian luxury brand.",
+    "licensing.subtitle": "The house of Chantal Thomass is developing partnerships worldwide. Join the universe of an iconic Parisian luxury brand by becoming either a licensee or an exclusive retailer.",
     "licensing.region.europe": "Europe",
     "licensing.region.europe.desc": "Opportunities available",
     "licensing.region.asia": "Asia-Pacific",
