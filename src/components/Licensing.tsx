@@ -44,7 +44,7 @@ const Licensing = () => {
             {t("licensing.cta.text")}
           </p>
           <a
-            href="mailto:contact@chantalthomass.com"
+            href="mailto:contact@chantal-thomass.com"
             className="inline-flex items-center justify-center px-12 py-4 bg-primary text-primary-foreground font-title text-sm tracking-widest hover:bg-primary/90 transition-all duration-300 hover-rose-glow"
           >
             {t("licensing.cta.button")}
