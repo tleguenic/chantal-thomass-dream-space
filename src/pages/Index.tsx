@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <LanguageProvider>
+    <>
       <div className="min-h-screen bg-background">
         <Header />
         <main>
@@ -21,7 +21,7 @@ const Index = () => {
         </main>
         <Footer />
       </div>
-    </LanguageProvider>
+    </>
   );
 };
 
