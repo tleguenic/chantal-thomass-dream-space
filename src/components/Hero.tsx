@@ -1,6 +1,7 @@
 import heroBg from "@/assets/hero-bg.jpg";
 import { useLanguage } from "@/contexts/LanguageContext";
 import Logo from "./Logo";
+import RibbonC from "./RibbonC";
 
 const Hero = () => {
   const { t } = useLanguage();
@@ -15,7 +16,8 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <div className="text-foreground mb-10 animate-fade-up opacity-0 [animation-delay:0.2s] [animation-fill-mode:forwards]">
+        <RibbonC className="w-28 md:w-40 mx-auto mb-6" />
+        <div className="text-foreground mb-10 animate-fade-up opacity-0 [animation-delay:2.2s] [animation-fill-mode:forwards]">
           <h1 className="sr-only">Chantal Thomass Paris</h1>
           <Logo size="lg" aria-hidden />
         </div>
