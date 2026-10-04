@@ -168,7 +168,7 @@
 @layer utilities {
   .ribbon-float {
     transform-origin: center;
-    animation: ribbonFloat 3.6s cubic-bezier(0.45, 0, 0.55, 1) forwards;
+    animation: ribbonFloat 4.2s cubic-bezier(0.45, 0, 0.55, 1) forwards;
   }
 
   @keyframes ribbonFloat {

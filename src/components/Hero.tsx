@@ -17,7 +17,7 @@ const Hero = () => {
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <RibbonC className="w-28 md:w-40 mx-auto mb-6" />
-        <div className="text-foreground mb-10 animate-fade-up opacity-0 [animation-delay:3.4s] [animation-fill-mode:forwards]">
+        <div className="text-foreground mb-10 animate-fade-up opacity-0 [animation-delay:4s] [animation-fill-mode:forwards]">
           <h1 className="sr-only">Chantal Thomass Paris</h1>
           <Logo size="lg" aria-hidden />
         </div>
